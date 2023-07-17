@@ -1,0 +1,162 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 250px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c0e3a;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+  font-size: 24px;
+}
+
+.info-container {
+  display: flex;
+}
+
+.score {
+  color: #fec653;
+  margin-right: 20px;
+}
+
+.time {
+  color: #fec653;
+}
+
+.timer-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.timer-con {
+  display: flex;
+  align-items: center;
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.sec-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.big-image {
+  width: 50vw;
+}
+
+.tab-elements {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.tab {
+  margin-right: 50px;
+}
+
+.tab-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.highlight-text {
+  color: #fec653;
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: #fec653 4px solid;
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.image-button {
+  background-color: transparent;
+  border: none;
+}
+
+.thumbnail-image {
+  width: 250px;
+}
+
+.sec-2 {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  width: 50vw;
+  height: 55vw;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.trophy-image {
+  width: 550px;
+}
+
+.main-heading {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+
+.your-score {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  margin-top: 0;
+}
+
+.play-button {
+  background-color: #cf60c8;
+  width: 180px;
+  height: 50px;
+  border: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+}
